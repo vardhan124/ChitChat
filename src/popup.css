@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Montez);
+
+body{
+  background-color: #f5f5f5;  
+  font-family: Lato;
+}
+.profile,.content{
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+.profile{
+  position: absolute;
+  top: 100px;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  height: auto;
+  width: 75%;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  background-color: #fff;
+  border-top: 5px solid #39cb58;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2.5px 5px #ccc;
+}
+label{
+  color: #555;
+  line-height: 2.1em;
+  margin-left: 10px;
+}
+label[for="avatar"]{
+  line-height: 120px;
+}
+.profile:hover .btn{
+    opacity: 1;
+}
+input[type="file"]{
+  /* position: absolute; */
+  color: #555;
+  font-size: 15px;
+  top: 25%;
+
+  background-color: #ededed;
+  width: auto;
+  border: 0;
+}
+.grid-35{
+  width: 35%;
+  float: left;
+  font-weight: 500;
+  color: #333;
+  /* text-align: left; */
+}
+.grid-65{
+  position: relative;
+  width: 65%;
+  float: right;
+  font-family: Source Sans Pro;
+  font-weight: 300;
+  font-size: 17px;
+}
+span.photo{
+  position: relative;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  margin: 10px 0 2.5px;
+  display: block;
+  top: 10%;
+  left: 10%;
+  overflow: hidden;
+  background: #ddd url("https://www.adtechnology.co.uk/images/UGM-default-user.png");
+  background-size: 100%;
+  border-radius: 100%;
+  border: 2px solid #ddd;
+}

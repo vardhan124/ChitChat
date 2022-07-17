@@ -1,0 +1,33 @@
+.button_search{
+    padding : 10px 50px;
+color: #fff;
+background: #FF4820;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: none;
+margin-right: 10px;
+outline: none;
+cursor: pointer;
+border-radius: 7px;
+}
+#profile_iimg{
+margin-top: 10px;
+width: 100px;
+height: 100px;
+}
+#name{
+color:bisque;
+}
+#about{
+color:#020202
+}
+.onecard{
+margin-left:100px;
+background-color: #ffcfcf;
+width: 500px;
+height: 250px;
+margin-top: 10px;
+border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+.Remove{
+    color:rgb(18, 17, 17);
+    display: inline-block;
+    /* text-align: left; */
+}
+.caasual{
+    display:block;
+    margin-top:10px;
+    padding-top:20px;
+    margin-bottom:10px;
+    text-align: left;
+    margin-left:20%;
+    padding-bottom:20px;
+    
+}
+#img_profile{
+    height:50px;
+    width:50px;
+}
+
+#profile_frnd{
+    height:150px;
+    width:150px;
+}
+#file{
+    margin-left:40%;
+}
+.participant{
+     display: flex;
+     padding: 20px 0 30px;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.casual{
+    color: rgb(160, 114, 0);
+}
+.ccasual {
+    color: #000;
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    place-content: start space-evenly; 
+}

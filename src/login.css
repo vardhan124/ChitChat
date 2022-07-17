@@ -1,0 +1,83 @@
+
+
+.login__container{
+    padding: 100px;
+    text-align: center;
+ 
+    background-color: #ffffff79;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px;
+}
+.login__container>img{
+    object-fit: contain;
+    height: 150px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+.login__container>Button{
+    border-radius: 5px;
+    background-color: crimson !important;
+    margin-top: 50px;
+    text-transform: inherit !important;
+
+}
+.heading{
+    color : purple;
+    }
+    .design{
+    border-radius : 15px;
+    
+    width : 200px;
+    height : 35px;
+    text-align : center;
+    }
+    .submit{
+        padding : 10px 50px;
+   color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    border: none;
+margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    }
+    .popup{
+        background: var(--color-bg);
+    }
+    div{
+            color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+    }
+    .buttons{
+
+        width: auto;
+        display: flex;
+    justify-content: space-evenly;
+    
+
+    
+    }
+    .login{
+  background: var(--color-bg);
+margin: 0;
+  position: relative;
+    display: grid;
+    height: 100vh;
+    width:100vh;
+    place-items: center;
+}
+span{
+    color:#fff;
+}
